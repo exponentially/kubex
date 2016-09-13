@@ -18,10 +18,10 @@ defmodule Kubex.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.6"},
-     {:poison, "~> 1.4"},
+    [{:httpoison, "~> 0.9"},
+     {:poison, "~> 1.5 or ~> 2.0"},
      {:cowboy, "~> 1.0", only: :test},
-     {:plug, "~> 0.13", only: :test}]
+     {:plug, "~> 1.2", only: :test}]
   end
 
   defp description do
